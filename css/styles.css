@@ -1,0 +1,53 @@
+body {
+  font-family: 'Montserrat Alternates', sans-serif;
+  background-color: antiquewhite;
+}
+
+.container {
+  padding: 0px;
+}
+
+.navbar {
+  background-color:bisque;
+}
+
+#datos-personales {
+  margin-top: 60px;
+}
+
+section {
+  margin-top: 20px;
+  padding-bottom: 15px;
+  border-bottom: solid 1px grey;
+}
+
+section > h2 {
+  text-align: center;
+  color:darkolivegreen;
+  padding-bottom: 5px
+}
+
+.resumen {
+  display: none;
+  font-weight: light;
+  padding: 10px 10px 10px 0;
+  border: solid 1px lightgrey;
+  padding: 10px;
+  background-color: bisque;
+  width: 80%;
+  margin: 10px;
+}
+
+.botonMostrarResumen {
+  display: inline;
+  font-weight: light;
+  font-size: 0.8rem;
+  padding: 2pt;
+  }
+
+.botonOcultarResumen {
+  display: none;
+  font-weight: light;
+  font-size: 0.8rem;
+  padding: 2pt;
+  }
