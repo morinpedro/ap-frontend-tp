@@ -19,3 +19,4 @@ function ocultarResumen(numero) {
   document.getElementById('botonMostrarResumen'+numero).style.display="inline";
   document.getElementById('botonOcultarResumen'+numero).style.display="none";
 }
+

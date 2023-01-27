@@ -15,7 +15,7 @@
     rel="stylesheet">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet"
-    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0">
   <link rel="stylesheet" href="css/styles.css">
 </head>
 
@@ -23,7 +23,7 @@
 
   <div class="container">
 
-    <nav class="navbar fixed-top navbar-expand-lg navbar-light">
+    <nav class="navbar fixed-top navbar-expand-xl navbar-light">
       <div class="container">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -32,56 +32,68 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Datos Personales
+              <a class="nav-link active" aria-current="page" href="#">
+                <span class="material-symbols-outlined">badge</span>
+                <span>Datos Personales</span>
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#estudios-completados">Estudios</a>
+              <a class="nav-link" href="#estudios">
+                <span class="material-symbols-outlined ms-3 pe-2">school</span>
+                <span>Estudios</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#experiencia-laboral">Experiencia</a>
+              <a class="nav-link" href="#experiencia-laboral">
+                <span class="material-symbols-outlined">lan</span>
+                Experiencia
+              </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#habilidades-sociales">Habilidades</a>
+              <a class="nav-link" href="#caracteristicas-personales">
+                <span class="material-symbols-outlined">group</span>
+                Características
+              </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#publicaciones">Publicaciones</a>
+              <a class="nav-link" href="#publicaciones">
+                <span class="material-symbols-outlined">sticky_note_2</span>
+                Publicaciones
+              </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#otros">Otros</a>
+              <a class="nav-link" href="#otros">
+                <span class="material-symbols-outlined">auto_awesome</span>
+                Otros
+              </a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
 
+
     <section id="datos-personales">
-      <h2><span class="material-symbols-outlined">
-          badge
-        </span> Datos personales</h2>
-      <div class="row">
-        <div class="col-12 col-sm-8">
-          <h3>Pedro Morin</h3>
-          <ul>
-            <li>email: morinpedro@gmail.com</li>
-            <li>DNI: 22070980</li>
-            <li>CUIL: 23-22070980-9</li>
-            <li>Estado civil: Casado</li>
-            <li>Domicilio: Los Claveles 6760. Colastiné Norte. 3001 Santa Fe. Argentina</li>
-            <li>Lugar y Fecha de Nacimiento: Santa Fe, 6 de julio
-              de 1971.</li>
-          </ul>
-        </div>
-        <div class="col-0 col-sm-4 text-end">
-          <img src="img/MorinP.jpg">
-        </div>
+      <h2>
+        <span class="material-symbols-outlined">badge</span>
+        Datos personales
+      </h2>
+
+      <div class="clearfix">
+        <h3 class="ms-3">Pedro Morin</h3>
+        <img class="col-sm-4 float-sm-end mb-3 ms-3 me-3 me-ms-0" src="img/MorinP.jpg" alt="foto de Pedro Morin">
+        <ul>
+          <li>email: morinpedro@gmail.com</li>
+          <li>DNI: 22070980</li>
+          <li>CUIL: 23-22070980-9</li>
+          <li>Estado civil: Casado</li>
+          <li>Domicilio: Los Claveles 6760. Colastiné Norte. 3001 Santa Fe. Argentina</li>
+          <li>Lugar y Fecha de Nacimiento: Santa Fe, 6 de julio de 1971.</li>
+        </ul>
       </div>
     </section>
 
     <section id="estudios">
-      <h2><span class="material-symbols-outlined">
-          school
-        </span> Estudios completados</h2>
+      <h2><span class="material-symbols-outlined">school</span> Estudios completados</h2>
 
       <ul>
         <li>
@@ -103,9 +115,10 @@
     </section>
 
     <section id="experiencia-laboral">
-      <h2><span class="material-symbols-outlined">
-          lan
-        </span> Experiencia laboral</h2>
+      <h2>
+        <span class="material-symbols-outlined">lan</span>
+        Experiencia laboral
+      </h2>
       <ul>
 
         <li>
@@ -157,32 +170,46 @@
 
     </section>
 
-    <section id="habilidades-sociales">
-      <h2><span class="material-symbols-outlined">
-          group
-        </span> Habilidades sociales</h2>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum dolorem eligendi eius necessitatibus voluptate
-      omnis
-      dolor dolores esse accusantium natus, molestiae facilis quaerat sunt! Facere libero ullam hic tempora illum?
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum dolorem eligendi eius necessitatibus voluptate
-      omnis
-      dolor dolores esse accusantium natus, molestiae facilis quaerat sunt! Facere libero ullam hic tempora illum?
+    <section id="caracteristicas-personales">
+      <h2>
+        <span class="material-symbols-outlined">group</span>
+        Características personales
+      </h2>
+
+      <ul>
+        <li>
+          Conciliador. Hábil para resolver conflictos de terceros.
+        </li>
+        <li>
+          Líder por naturaleza.
+        </li>
+        <li>
+          Pedagógico y didáctico para compartir el conocimiento.
+        </li>
+        <li>
+          Entusiasta y apasionado.
+        </li>
+        <li>
+          Me gustan los desafíos y resolver problemas.
+        </li>
+        <li>
+          Me encanta aprender cosas nuevas.
+        </li>
+      </ul>
 
     </section>
 
     <section id="publicaciones">
-      <h2><span class="material-symbols-outlined">
-          sticky_note_2
-        </span> Publicaciones</h2>
+      <h2>
+        <span class="material-symbols-outlined">sticky_note_2</span>
+        Publicaciones
+      </h2>
       <ol>
         <li>
           A Finite Element Method for Surface Diffusion: the Parametric Case,
           Journal of Computational Physics 203 (2005), 321&mdash;343.&nbsp;<button id="botonMostrarResumen0"
             type="button" class="btn btn-secondary botonMostrarResumen">
-            <span class="material-symbols-outlined align-middle">
-              expand_more
-            </span>
-
+            <span class="material-symbols-outlined align-middle">expand_more</span>
           </button><button id="botonOcultarResumen0" type="button" class="btn btn-secondary botonOcultarResumen">
             <span class="material-symbols-outlined align-middle">
               expand_less
@@ -507,39 +534,58 @@
     </section>
 
     <section id="otros">
-      <h2><span class="material-symbols-outlined">
-          auto_awesome
-        </span> Otros</h2>
+      <h2>
+        <span class="material-symbols-outlined">auto_awesome</span>
+        Otros
+      </h2>
 
       <ul>
-        <li>Participación en <i>aniMate 10</i>. Segundo festival de Matemática de la FIQ. Coordinador del grupo de
+        <li>Participación en <strong>aniMate 10</strong>. Segundo festival de Matemática de la FIQ. Coordinador del
+          grupo de
           magia.
           Septiembre 2010.
         </li>
 
         <li>
-          Participación en \textsf{aniMate FIQ 2009}. Primer festival de Matemática de la FIQ. Dictando la conferencia
-          ``El
-          frío, el calor, la difusión y el logaritmo''. Septiembre 2009.
+          Participación en <strong>
+            aniMate FIQ 2009
+          </strong>. Primer festival de Matemática de la FIQ. Dictando
+          la conferencia
+          <u>El frío, el calor, la difusión y el logaritmo</u>. Septiembre 2009.
         </li>
 
         <li>
-          Participación en la feria de ciencia y tecnología, dictando una conferencia ``Aplicaciones de la Matemática en
-          la
-          Ciencia y la Tecnología'', Centro Regional de Investigación y Desarrollo (CERIDE), Santa Fe. Agosto de 2005.
+          Participación en la feria de ciencia y tecnología, dictando una conferencia <u>Aplicaciones de la Matemática
+            en
+            la
+            Ciencia y la Tecnología</u>, Centro Regional de Investigación y Desarrollo (CERIDE), Santa Fe. Agosto de
+          2005.
         </li>
 
         <li>
           Participación en la feria de las carreras de la Universidad Nacional del Litoral (UNL), dictando una
           conferencia
-          ``Matemática, estás ahí!'' para estudiantes de colegios secundarios. Universidad Nacional del Litoral.
+          <u>Matemática, estás ahí!</u> para estudiantes de colegios secundarios. Universidad Nacional del Litoral.
           Septiembre de
           2006.
         </li>
 
       </ul>
     </section>
+
+    <section id="footer">
+      <div class="row">
+        <div class="col-auto me-auto">
+          Pedro Morin &lang;morinpedro@gmail.com&rangle;
+        </div>
+        <div class="col-auto">
+          Enero 2023
+        </div>
+      </div>
+    </section>
+
   </div>
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"></script>
