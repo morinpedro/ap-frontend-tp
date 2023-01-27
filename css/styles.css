@@ -35,6 +35,12 @@ section > h2 {
   margin: 10px;
 }
 
+@media screen and (max-width: 992px) {
+  .resumen {
+    width: 92%;
+    margin-left: 0;
+  }
+}
 .botonMostrarResumen {
   display: inline;
   font-weight: light;
